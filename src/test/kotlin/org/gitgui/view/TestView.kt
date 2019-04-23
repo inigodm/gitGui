@@ -1,17 +1,17 @@
 package org.gitgui.view
 
 import javafx.stage.Stage
-import org.gitgui.view.view.MainView
+import org.gitgui.view.view.GitGuiView
 import org.junit.Test
 import org.testfx.assertions.api.Assertions.*
 import org.testfx.framework.junit.ApplicationTest
 
 class TestView: ApplicationTest() {
 
-    lateinit var view: MainView
+    lateinit var view: GitGuiView
 
     override fun start(stage: Stage){
-        view = MainView()
+        view = GitGuiView()
     }
 
     @Test
