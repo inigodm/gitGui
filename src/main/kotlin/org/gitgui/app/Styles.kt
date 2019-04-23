@@ -1,4 +1,4 @@
-package org.gitgui.view.app
+package org.gitgui.app
 
 import javafx.scene.text.FontWeight
 import tornadofx.Stylesheet

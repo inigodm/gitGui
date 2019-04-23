@@ -1,6 +1,6 @@
-package org.gitgui.view.app
+package org.gitgui.app
 
-import org.gitgui.view.view.GitGuiView
+import org.gitgui.view.GitGuiView
 import tornadofx.App
 
 class GitGuiApp: App(GitGuiView::class, Styles::class)

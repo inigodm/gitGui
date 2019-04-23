@@ -1,7 +1,7 @@
-package org.gitgui.view
+package org.gitgui
 
 import javafx.stage.Stage
-import org.gitgui.view.view.GitGuiView
+import org.gitgui.view.GitGuiView
 import org.junit.Test
 import org.testfx.assertions.api.Assertions.*
 import org.testfx.framework.junit.ApplicationTest
