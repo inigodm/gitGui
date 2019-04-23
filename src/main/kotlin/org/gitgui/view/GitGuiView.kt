@@ -1,5 +1,6 @@
 package org.gitgui.view
 
+import javafx.scene.layout.GridPane
 import javafx.scene.layout.HBox
 import javafx.scene.layout.VBox
 import org.gitgui.app.Styles
@@ -14,5 +15,14 @@ class GitGuiView2 : View("Hello TornadoFX") {
 }
 
 class GitGuiView: View(""){
-    override val root : VBox by fxml()
+    override val root = hbox {
+        label(title) {
+            addClass(Styles.heading)
+        }
+        button {
+            text("TEXTO")
+            action {
+                println({}.javaClass.getClassLoader().getResource("/home/inigo/IdeaProjects/gitGui/src/main/resources/org/gitgui/view/GitGuiView.fxml").readText())
+            } }
+    }
 }
